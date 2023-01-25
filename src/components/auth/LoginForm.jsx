@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Checkbox, Divider, Form, Input, notification } from "antd";
+import { Button, Checkbox, Divider, Form, Input, notification, Typography } from "antd";
 import { UserOutlined, UserAddOutlined, LockOutlined, MailOutlined, FacebookFilled, GoogleOutlined, LoginOutlined } from '@ant-design/icons';
 import { makeStyles, shorthands } from '@griffel/react';
 // import { Link } from "react-router-dom";
@@ -10,6 +10,8 @@ import useAuth from '../../hooks/useAuth'
 
 import { green } from '@ant-design/colors';
 import { Link, redirect, useNavigate } from 'react-router-dom';
+
+const { Title } = Typography;
 
 const useStyles = makeStyles({
   form: {
@@ -80,6 +82,7 @@ export default function LoginForm() {
   return (
     <div className={style.form}>
       {contextHolder}
+      <Title level={3}>Inicia sesión</Title>
       <div className={style.socialButtons}>
         <Button type="primary" icon={<GoogleOutlined />}>
           Con Google

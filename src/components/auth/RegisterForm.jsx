@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Checkbox, Divider, Form, Input, notification } from "antd";
+import { Button, Checkbox, Divider, Form, Input, notification, Typography } from "antd";
 import { UserOutlined, UserAddOutlined, LockOutlined, MailOutlined, FacebookFilled, GoogleOutlined, LoginOutlined } from '@ant-design/icons';
 import { makeStyles, shorthands } from '@griffel/react';
 // import { Link } from "react-router-dom";
@@ -10,6 +10,8 @@ import useAuth from '../../hooks/useAuth'
 
 import { green } from '@ant-design/colors';
 import { Link } from 'react-router-dom';
+
+const { Title } = Typography;
 
 const useStyles = makeStyles({
   form: {
@@ -76,7 +78,8 @@ export default function RegisterForm() {
   return (
     <div className={style.form}>
       {contextHolder}
-      {/* <div className={style.socialButtons}>
+      <Title level={3}>Crear cuenta</Title>
+      <div className={style.socialButtons}>
         <Button type="primary" icon={<GoogleOutlined />}>
           Con Google
         </Button>
@@ -84,7 +87,7 @@ export default function RegisterForm() {
           Con Facebook
         </Button>
       </div>
-      <Divider plain>O</Divider> */}
+      <Divider plain>O</Divider>
       <Form
         name="normal_register"
         className={style.formImputs}
@@ -100,7 +103,7 @@ export default function RegisterForm() {
             placeholder="Correo"
           />
         </Form.Item>
-        <Form.Item
+        {/* <Form.Item
           name="name"
           rules={[{ required: true, message: 'Por favor ingresa su nombre!' }]}
         >
@@ -108,8 +111,8 @@ export default function RegisterForm() {
             prefix={<UserOutlined className="site-form-item-icon" />}
             placeholder="Nombre"
           />
-        </Form.Item>
-        <Form.Item
+        </Form.Item> */}
+        {/* <Form.Item
           name="username"
           rules={[{ required: true, message: 'Por favor ingresa un usuario!' }]}
         >
@@ -117,7 +120,7 @@ export default function RegisterForm() {
             prefix={<UserOutlined className="site-form-item-icon" />}
             placeholder="Usuario"
           />
-        </Form.Item>
+        </Form.Item> */}
         <Form.Item
           name="password"
           rules={[{ required: true, message: 'Por favor ingresa tu contraseña!' }]}
@@ -141,7 +144,7 @@ export default function RegisterForm() {
           </Button>
           <Link to="/login">
             <Button icon={<LoginOutlined />}>
-              Iniciar
+              Iniciar 
             </Button>
           </Link>
         </Form.Item>

@@ -51,7 +51,7 @@ export default function AuthLayout({ children }) {
     <div className={style.mainContainer}>
       <Card className={style.cardLoginContainer}
         cover={
-          <img alt="example" src="https://img.freepik.com/foto-gratis/disparo-horizontal-hermosa-adolescente-satisfecha-centrada-dispositivo-telefono-inteligente-chats-linea-amigos_273609-25671.jpg?w=740&t=st=1673718173~exp=1673718773~hmac=ebccc66eea8120872576c1fa18ae7d06cbb673870cdc6caa45f6d4af8004fffa" className={style.imgLoginContainer} />
+          <img alt="example" src="https://api.lorem.space/image/watch?w=1000&h=1000" className={style.imgLoginContainer} />
         }>
         <div className={style.formLoginContainer}>
           {children}

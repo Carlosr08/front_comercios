@@ -50,37 +50,37 @@ export default function Categories(){
 
       <div className={styles.itemCategory}>
         <div className={styles.itemImageContent}>
-          <img className={styles.itemImage} src="https://img.freepik.com/foto-gratis/ensalada-fresca-pavo-huevos-verduras_1220-5193.jpg?w=740&t=st=1675090565~exp=1675091165~hmac=c79d241b5f5e872d7a3914dc898a13ceb2bc76c464831323a13ae0361636a7db" alt="img" />
+          <img className={styles.itemImage} src="https://turismosucre.com.ve/images/alojamiento/2022/hotelnuevatoledo_600x600.jpg" alt="img" />
         </div>
         <span>
-          Restaurante
+          Hoteles
         </span>
       </div>
 
       <div className={styles.itemCategory}>
         <div className={styles.itemImageContent}>
-          <img className={styles.itemImage} src="https://img.freepik.com/foto-gratis/ensalada-fresca-pavo-huevos-verduras_1220-5193.jpg?w=740&t=st=1675090565~exp=1675091165~hmac=c79d241b5f5e872d7a3914dc898a13ceb2bc76c464831323a13ae0361636a7db" alt="img" />
+          <img className={styles.itemImage} src="https://eldiario.com/wp-content/uploads/2021/01/medicamentos.jpg" alt="img" />
         </div>
         <span>
-          Restaurante
+          Farmacias
         </span>
       </div>
 
       <div className={styles.itemCategory}>
         <div className={styles.itemImageContent}>
-          <img className={styles.itemImage} src="https://img.freepik.com/foto-gratis/ensalada-fresca-pavo-huevos-verduras_1220-5193.jpg?w=740&t=st=1675090565~exp=1675091165~hmac=c79d241b5f5e872d7a3914dc898a13ceb2bc76c464831323a13ae0361636a7db" alt="img" />
+          <img className={styles.itemImage} src="https://cdn-3.expansion.mx/dims4/default/c357a0e/2147483647/strip/true/crop/724x483+0+0/resize/1800x1201!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F44%2F20%2F854947834355af32dca04abddc25%2Fistock-1321115829.jpg" alt="img" />
         </div>
         <span>
-          Restaurante
+          Entretenimiento
         </span>
       </div>
 
       <div className={styles.itemCategory}>
         <div className={styles.itemImageContent}>
-          <img className={styles.itemImage} src="https://img.freepik.com/foto-gratis/ensalada-fresca-pavo-huevos-verduras_1220-5193.jpg?w=740&t=st=1675090565~exp=1675091165~hmac=c79d241b5f5e872d7a3914dc898a13ceb2bc76c464831323a13ae0361636a7db" alt="img" />
+          <img className={styles.itemImage} src="https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2022-11/images/subida_precio_alquiler.jpg?VersionId=Bw5S0SUcA0hGB4sLevp4kTo7zL5rt59Y&itok=jdvYWz4c" alt="img" />
         </div>
         <span>
-          Restaurante
+          Alquileres
         </span>
       </div>
     </div>

@@ -8,7 +8,8 @@ const { Header, Content, Footer } = Layout;
 
 const useStyles = makeStyles({
   mainContainer: {
-    minHeight: '100vh'
+    minHeight: '100vh',
+    marginTop: '64px'
   },
   menuAuth: {
     display: 'flex',
@@ -82,14 +83,7 @@ export default function BaseLayout({ children }) {
         /> */}
       </Header>
       <Content className="site-layout">
-        <div
-          style={{
-            // padding: 24,
-            // minHeight: 380,
-            marginTop: '63px',
-            // background: colorBgContainer,
-          }}
-        >
+        <div>
           {children}
         </div>
       </Content>

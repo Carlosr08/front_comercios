@@ -28,9 +28,9 @@ const useStyles = makeStyles({
     ...shorthands.transition('all'),
     transitionDuration: '0.3s',
     cursor: 'pointer',
-    width: '140px',
+    width: '150%',
     '&:hover':{
-      width: '155px'
+      width: '170%'
     }
   }
 })

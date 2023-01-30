@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
+import Carousel from "../components/home/Carousel";
+import Categories from "../components/home/Categories";
 
 export default function HomePage(){
   return <>
-    Home
-    <Link to="login">
-      login
-    </Link>
+    <Carousel/>
+    <Categories/>
   </>
 }

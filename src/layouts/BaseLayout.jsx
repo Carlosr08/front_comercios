@@ -92,7 +92,7 @@ export default function BaseLayout({ children }) {
           textAlign: 'center',
         }}
       >
-        Ant Design ©2023 Created by Ant UED
+        Creado por Carlos Rivas 🏍
       </Footer>
     </Layout>
   );
